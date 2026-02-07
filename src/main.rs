@@ -43,7 +43,7 @@ fn main() {
         for param in layerss.parameters() {
             let new_data = param.data() - lr * param.grad();
             param.0.borrow_mut().data = new_data;
-            param.set_grad(0.0);  // Important: zero gradients!
+            param.set_grad(0.0); 
         }
         
         if epoch % 10 == 0 {
