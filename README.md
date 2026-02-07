@@ -1,5 +1,5 @@
 
-Micrograd in Rust 🦀
+# Micrograd in Rust 🦀
 A Rust implementation of Andrej Karpathy's micrograd - a tiny autograd engine and neural network library.
 
 
